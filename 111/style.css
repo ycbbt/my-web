@@ -1,0 +1,283 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.login,
+.register {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    overflow: hidden;
+}
+
+#video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    max-height: 110%;
+    object-fit: cover;
+}
+
+#black-hid {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a;
+    opacity: 0.6;
+    z-index: -2;
+}
+
+form {
+    position: relative;
+    width: 642.03px;
+    height: 477.28px;
+    background-color: #fff;
+    margin: auto;
+    top: 20%;
+    border-radius: 0.1cm;
+
+
+}
+
+
+
+.login_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 3px black;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 612px;
+    height: auto;
+    padding: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.QRcode img {
+    height: 90px;
+    width: 90px;
+
+    object-fit: unset;
+
+    /* 添加过渡效果 */
+    cursor: pointer;
+}
+
+.QRcode {
+    height: 90px;
+    width: 90px;
+
+}
+
+.QRcode:hover>img {
+    line-height: normal;
+
+    /* transform-origin: unset; */
+
+}
+
+
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+.content {
+    position: absolute;
+    width: 612px;
+    height: 150px;
+
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input {
+    height: 60px;
+    width: 522px;
+    margin-top: 25px;
+    margin-left: 40px;
+
+    border: none;
+
+
+}
+
+.content input {
+    height: 60px;
+    width: 522px;
+
+    text-indent: 1em;
+    font-size: 18px;
+    letter-spacing: .2em;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    box-shadow: inset 0px 0px 2px rgb(207, 206, 206);
+    box-shadow: 0px 0px 4px rgb(207, 206, 206);
+    border-radius: 0.1cm;
+
+}
+
+.content input::placeholder {
+    opacity: 0.4;
+}
+
+.register-text {
+    position: absolute;
+    width: 522px;
+    height: 30px;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.register-text a {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+
+.a1 {
+    color: #949292;
+}
+
+
+.a2 {
+    color: #d6c194;
+}
+
+.a2:hover {
+    color: #d6a948;
+}
+
+.a3:hover {
+    color: #d6a948;
+}
+
+.a3 {
+    position: absolute;
+    right: 0;
+    color: #d6c194;
+}
+
+.start {
+    position: absolute;
+    top: 320px;
+    width: 612px;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.start button {
+    position: absolute;
+    width: 522px;
+    height: 60px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background-color: rgb(54, 54, 61);
+    color: rgb(215, 210, 180);
+    font-weight: 700;
+    border-radius: .1cm;
+    box-shadow: 0px 0px 3px 1px #969595;
+}
+
+.start button:hover {
+    color: #d6c194;
+}
+
+.exit {
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.exit img {
+    width: 25px;
+    height: 25px;
+}
+
+.other-login {
+    position: absolute;
+    width: 612px;
+    height: 80px;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 80px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+
+    font-weight: 550;
+}
+
+.other-login a {
+    color: rgb(15, 15, 15);
+}
+
+.other-login span:first-child {
+    margin-left: 15px;
+}
+
+.other-login span:last-child {
+    position: absolute;
+    right: 80px;
+}
+
+.xieyi input {
+    margin-left: 45px;
+}
+
+.yanzhengma:hover {
+    color: #aa863e;
+}

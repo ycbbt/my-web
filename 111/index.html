@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  onclick="playAudio()">
+    <audio id="audio-player" autoplay class="hide-player">
+        <source src="C:\Users\125-cyuan\Desktop\111\resoures\陈致逸,HOYO-MiX - Dream Aria (Genshin Impact Main Theme Var.) 梦之咏叹.mp3"
+            type="audio/mp3">
+    </audio>
+
+    <div id="video-background">
+        <video src="C:\Users\125-cyuan\Desktop\111\resoures\Video.mp4" autoplay="autoplay" muted="muted" loop="loop"></video>
+    </div>
+
+    <div id="black-hid">
+    </div>
+
+    <form id="login" class="login show">
+        <div class="login_box">
+            <div class="title">
+                <a class="logo" href=""><img src="C:\Users\125-cyuan\Desktop\111\resoures\ed39ba943da56c88dec2b18f4bfb0a32_2315648370550091638.png" alt=""></a>
+                <a class="exit" href=""><img src="C:\Users\125-cyuan\Desktop\111\resoures\关闭 (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="input"><input type="text" placeholder="Enter email/username"></div>
+            <div class="input"><input type="password" placeholder="Enter psaaword"></div>
+        </div>
+        <div class="register-text">
+            <span>
+                <a href="" class="a1">Forgot password?</a>
+                <a href="" class="a2" id="register_btn">Register now</a>
+            </span>
+            <span><a href="" class="a3">Forgot password</a></span>
+        </div>
+        <div class="start">
+            <button>Start game</button>
+        </div>
+        <div class="other-login">
+            <span><a href="" class="a4">Facebook</a></span>
+            <span><a href="" class="a5">Twitter</a></span>
+        </div>
+    </form>
+
+
+    <form id="register" class="register">
+        <div class="login_box">
+            <div class="title">
+                <a class="logo" href=""><img src="C:\Users\125-cyuan\Desktop\111\resoures\ed39ba943da56c88dec2b18f4bfb0a32_2315648370550091638.png" alt=""></a>
+                <a class="exit" href=""><img src="C:\Users\125-cyuan\Desktop\111\resoures\关闭 (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="input">
+                <span
+                    style="display: inline-block;width: 60px;height: 60px;font-size: 21px;font-weight: 800;color: black;line-height: 60px;text-align: center; ">
+                    +1</span>
+                <input style="width: 452px;float: right;" type="text" placeholder="Your phone number">
+                <a class="yanzhengma" href=""
+                    style="position: absolute; top: 43px;right: 60px;color: #d6c194;font-weight: 700;letter-spacing: 0.1em;">获取验证码</a>
+            </div>
+            <div class="input"><input type="text" placeholder="输入短信验证码"></div>
+        </div>
+        <div class="register-text">
+            <span>
+                <a href="" class="a2" id="login_btn">Return</a>
+            </span>
+
+        </div>
+        <div class="start" style="top: 370px;">
+            <button>Register Now</button>
+        </div>
+
+    </form>
+    <a href="https://ys.mihoyo.com/">Jump to</a>
+</body>
+</html>
